@@ -27,7 +27,7 @@ Thus:
   depending on the capabilities and functionalities you need for your application.
 * if you only need to execute Java applications, you need to download and install the [JRE](https://java.com/en/).
 
-![](jse-jdk-jre.svg)
+![](doc/jse-jdk-jre.svg)
 
 ## And what about the version ?
 
