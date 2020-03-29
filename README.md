@@ -80,4 +80,21 @@ What ??? What's going on here ???
 Don't bother too much. The Java versioning system is not consistent.
 See [Java version history](https://en.wikipedia.org/wiki/Java_version_history).
 
+# IntelJ configuration
+
+Set the path to the SDK (Java or Groovy):
+
+	`File` -> `Project Structure` -> `Project Settings` -> `Project` -> `Project JDK`
+	                              -> `Platform Settings` -> `SDKs`
+
+# Gradle
+
+## Prerequisites
+
+Before you dive into Gradle, you should learn a little bit of Groovy.
+In particular, you should look at closure delegates since the "Gradle
+script syntax" relies heavily on this concept.
+
+See [this document](doc/groovy.md).
+
 
