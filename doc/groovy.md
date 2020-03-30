@@ -65,3 +65,9 @@ See also:
 * [closure-owner.groovy](groovy-examples/closure-owner.groovy)
 * [closure-delegate.groovy](groovy-examples/closure-delegate.groovy)
 
+# Maps
+
+The Gradle syntax often use maps. Thus it is important to learn about it.
+
+Example: [maps.groovy](groovy-examples/maps.groovy)
+

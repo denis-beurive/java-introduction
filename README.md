@@ -92,9 +92,28 @@ Set the path to the SDK (Java or Groovy):
 ## Prerequisites
 
 Before you dive into Gradle, you should learn a little bit of Groovy.
-In particular, you should look at closure delegates since the "Gradle
-script syntax" relies heavily on this concept.
+In particular, you should look at:
+
+* closure delegates since the "Gradle script syntax" relies heavily on this concept.
+* maps and function calls.
+
+Closure delegates:
+
+	// The function/method "repositories" is called with a closure as unique parameter.
+	// This closure has a delegate, wich defines the method "mavenCentral".
+	repositories {
+	    mavenCentral()
+	}
+
+Maps and function calls
+
+	// Execute the function/method "apply" on the map (["plugin": java]).
+	apply plugin: java
 
 See [this document](doc/groovy.md).
+
+
+
+build.gradle <=> project
 
 
