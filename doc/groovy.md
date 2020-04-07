@@ -37,6 +37,16 @@ You can see that:
 
 Example: [script.groovy](groovy-examples/script.groovy)
 
+# Function call
+
+In Groovy, when you call a function, the use of parentheses is optional.
+
+	// Execute the method "setGroup()" with the parameter "org.example".
+	group 'org.example'
+	version '1.0-SNAPSHOT'
+
+
+
 # Closure delegate
 
 The notion of delegate is very important to understand.

@@ -105,15 +105,19 @@ Closure delegates:
 	    mavenCentral()
 	}
 
+or:
+
+    task hi {
+        // The method "doLast" is a method of the closure delegate.
+        doLast {
+            println "hi!"
+        }
+    }
+
 Maps and function calls
 
 	// Execute the function/method "apply" on the map (["plugin": java]).
 	apply plugin: java
 
 See [this document](doc/groovy.md).
-
-
-
-build.gradle <=> project
-
 
