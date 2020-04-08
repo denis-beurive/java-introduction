@@ -119,5 +119,5 @@ Maps and function calls
 	// Execute the function/method "apply" on the map (["plugin": java]).
 	apply plugin: java
 
-See [this document](doc/groovy.md).
+See [this document](doc/groovy.md) and [this document](https://github.com/denis-beurive/gradle-explorer).
 
