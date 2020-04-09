@@ -1,6 +1,15 @@
 # java-introduction
 
-## JDK, JRE, JSE, JEE, JME... what do all these things mean ?
+This repository contains notes about the use of Java.
+
+# Examples
+
+* [part1: the very basic scenario](part1/README.md)
+* [part2: produce a JAR and execute the application from the JAR](part2/README.md)
+* [part3: use ant to build the application](part3/README.md)
+* [part4: use Gradle](part4/README.md)
+
+# JDK, JRE, JSE, JEE, JME... what do all these things mean ?
 
 What do I need to install in order to develop and run a Java application ?
 

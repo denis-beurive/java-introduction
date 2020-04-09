@@ -2,7 +2,7 @@
 
 This project presents a slightly more advanced scenario:
 
-* produce a JAR file from a JAVA file and a JAR archive (the equivalent of a C _library_).
+* produce a JAR archive (the equivalent of a C _library_).
 * execute the application by specifying a list of JAR files to search from for the application's entry point.
 
 | Variable       | Description                                     |

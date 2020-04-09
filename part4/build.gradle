@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+// Call the method `void setGroup(Object group)` defined by the interface `Project`.
+group 'org.example'
+
+// Call the method `void setVersion(Object version)` defined by the interface `Project`.
+//  version '1.0-SNAPSHOT'
+this.setVersion('1.0-SNAPSHOT')
+
+
+// Call the method `void setSourceCompatibility(Object var1)` defined by the interface `JavaPluginConvention`.
+sourceCompatibility = 1.8
+
+// Call the method `void repositories(Closure configureClosure)` defined by the interface `Project`.
+repositories {
+    mavenCentral()
+}
+
+// Call the method `void dependencies(Closure configureClosure)` defined by the interface `Project`.
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.apache.commons', name: 'commons-math3', version: '3.2'
+}
+
