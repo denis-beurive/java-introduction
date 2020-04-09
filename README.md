@@ -33,7 +33,7 @@ Thus:
 
 Suppose that you download and install Java Platform, Standard Edition 14 (JSE 14) [here](https://www.oracle.com/technetwork/java/javase/overview/index.html).
 
-![](doc/jse14-download.PNG)
+[jse 14 download image](doc/jse14-download.PNG)
 
 You just downloaded the file `jdk-14_windows-x64_bin.zip`.
 
@@ -56,7 +56,7 @@ But wait! I also installed:
 * Java Platform, Standard Edition 8 (JSE 8) [here](https://www.oracle.com/technetwork/java/javase/overview/index.html)
 * Java Platform, Standard Edition 11 (JSE 11) [here](https://www.oracle.com/technetwork/java/javase/overview/index.html)
 
-![](doc/jse11-download.PNG)
+[jse 11 download image](doc/jse11-download.PNG)
 
 For the servtion 8, I get this output:
 
