@@ -96,6 +96,14 @@ Set the path to the SDK (Java or Groovy):
 	`File` -> `Project Structure` -> `Project Settings` -> `Project` -> `Project JDK`
 	                              -> `Platform Settings` -> `SDKs`
 
+Add JARs that must be known by IntelJ:
+
+	`File` -> `Project Structure` -> `Modules`
+	                              -> `<project name>` -> `main`
+	                              the add the JARs and add "Export"
+
+![](doc/add-jars.png)
+
 # Gradle
 
 ## IntelJ configuration
