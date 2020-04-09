@@ -98,6 +98,22 @@ Set the path to the SDK (Java or Groovy):
 
 # Gradle
 
+## IntelJ configuration
+
+You may need to specify the path to your local installation of Gradle.
+
+**You should use Gradle version 6.3 or greater**.
+
+To do that:
+
+	`File` -> `Settings` -> `Build, Execution, Deployment` -> `Gradle`
+
+Then, in the section "Gradle Projects":
+
+	Use Gradle from: Specified location
+
+And select the path to your local Gradle installation.
+
 ## Prerequisites
 
 Before you dive into Gradle, you should learn a little bit of Groovy.
