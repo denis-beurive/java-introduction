@@ -100,7 +100,7 @@ Set the path to the SDK (Java or Groovy):
 
 ![](doc/java-sdk-conf2.png)
 
-Add JARs that must be known by IntelJ:
+ Add JARs that must be known by IntelJ:
 
 	`File` -> `Project Structure` -> `Modules`
 	                              -> `<project name>` -> `main`
@@ -125,6 +125,8 @@ Then, in the section "Gradle Projects":
 	Use Gradle from: Specified location
 
 And select the path to your local Gradle installation.
+
+![](doc/gradle-conf.png)
 
 ## Prerequisites
 
