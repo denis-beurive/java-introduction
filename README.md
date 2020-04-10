@@ -110,7 +110,7 @@ Add JARs that must be known by IntelJ:
 
 Eventually, especially if you use multi-project Gradle configuration, then declare the paths to the source files:
 
-![](doc/add-jars.png)
+![](doc/java-declare-src-location.png)
 
 # Gradle
 
