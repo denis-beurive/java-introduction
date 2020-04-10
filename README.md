@@ -100,11 +100,15 @@ Set the path to the SDK (Java or Groovy):
 
 ![](doc/java-sdk-conf2.png)
 
- Add JARs that must be known by IntelJ:
+Add JARs that must be known by IntelJ:
 
 	`File` -> `Project Structure` -> `Modules`
 	                              -> `<project name>` -> `main`
 	                              the add the JARs and add "Export"
+
+![](doc/add-jars.png)
+
+Eventually, especially if you use multi-project Gradle configuration, then declare the paths to the source files:
 
 ![](doc/add-jars.png)
 
