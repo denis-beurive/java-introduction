@@ -112,6 +112,8 @@ Eventually, especially if you use multi-project Gradle configuration, then decla
 
 ![](doc/java-declare-src-location.png)
 
+> See [Content roots﻿](https://www.jetbrains.com/help/idea/content-roots.html?_ga=2.106122435.1543271601.1586440040-1122966213.1586440040)
+
 # Gradle
 
 ## IntelJ configuration
