@@ -96,6 +96,10 @@ Set the path to the SDK (Java or Groovy):
 	`File` -> `Project Structure` -> `Project Settings` -> `Project` -> `Project JDK`
 	                              -> `Platform Settings` -> `SDKs`
 
+![](doc/java-sdk-conf1.png)
+
+![](doc/java-sdk-conf2.png)
+
 Add JARs that must be known by IntelJ:
 
 	`File` -> `Project Structure` -> `Modules`
