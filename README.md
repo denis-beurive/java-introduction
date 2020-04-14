@@ -134,6 +134,23 @@ And select the path to your local Gradle installation.
 
 ![](doc/gradle-conf.png)
 
+## Troubleshooting
+
+You may get the following error message under IntelJ:
+
+	Could not initialize class org.codehaus.groovy.runtime.InvokerHelper
+
+This means that Gradle cannot access its own libraries (the class path is not correctly set). One way to solve this problem is to specify the path to the Gradle installation root directory.
+
+Replace:
+
+![](doc/gradle-conf1.PNG)
+
+By:
+
+![](doc/gradle-conf2.PNG)
+
+
 ## Prerequisites
 
 Before you dive into Gradle, you should learn a little bit of Groovy.
