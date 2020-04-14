@@ -144,11 +144,11 @@ This means that Gradle cannot access its own libraries (the class path is not co
 
 Replace:
 
-![](doc/gradle-conf1.PNG)
+![](doc/gradle-conf-1.PNG)
 
 By:
 
-![](doc/gradle-conf2.PNG)
+![](doc/gradle-conf-2.PNG)
 
 
 ## Prerequisites
