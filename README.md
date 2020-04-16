@@ -89,6 +89,27 @@ What ??? What's going on here ???
 Don't bother too much. The Java versioning system is not consistent.
 See [Java version history](https://en.wikipedia.org/wiki/Java_version_history).
 
+# Running Java from the command line
+
+## Unix
+
+Assuming you are in the right directory:
+
+    java -cp "build/libs/app-pgp-keyload-1.0-SNAPSHOT.jar:${PROJECT_ROOT_DIR}/lib/bcprov-jdk15to18-1.65.jar:${PROJECT_ROOT_DIR}/lib/bcpg-jdk15to18-1.65.jar:${PROJECT_ROOT_DIR}/lib/utils-1.0-SNAPSHOT.jar" com.beurive.Main
+
+## MSDOS
+
+First, if you have several versions of the JDK installed on your system, you should set an alias the one you want to use.
+For example:
+
+    doskey java=C:\Users\denis.beurive\tools\java\jdk-14\bin\java $*
+
+Then, assuming you are in the right directory:
+
+    java -cp "build\libs\app-pgp-keyload-1.0-SNAPSHOT.jar;%PROJECT_ROOT_DIR%\lib\bcprov-jdk15to18-1.65.jar;%PROJECT_ROOT_DIR%\lib\bcpg-jdk15to18-1.65.jar;%PROJECT_ROOT_DIR%\lib\utils-1.0-SNAPSHOT.jar" com.beurive.Main
+
+> Please note that, contrary to the UNIX convention, directories are separated by "`;`" (Instead of "`:`") in the `CLASSPATH`.
+
 # IntelJ configuration
 
 Set the path to the SDK (Java or Groovy):
